@@ -10,4 +10,10 @@ public class Scene_Manager : MonoBehaviour
     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void LoadTargetScene()
+    {
+        SceneManager.LoadScene("BY_HomeScene"); 
+    }
+
+
 }

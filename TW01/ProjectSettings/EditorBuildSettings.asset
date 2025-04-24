@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TW01_BY/BY_HomeScene.unity
     guid: 17167de287cc16c4abf0a0f58a70c13a
+  - enabled: 1
+    path: Assets/TW01_KDH/KDH_Scene.unity
+    guid: 5bad1440091632e44b38ecad5d91932d
   m_configObjects: {}
