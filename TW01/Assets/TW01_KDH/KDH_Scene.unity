@@ -239,6 +239,74 @@ MonoBehaviour:
   PickCounts: {fileID: 1955820729}
   PutCounts: {fileID: 1691411661}
   noticeText: {fileID: 1873384539}
+--- !u!1001 &36387272
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2080753095805815457, guid: c3b1d788347f856448f7005f93028356, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 627.20953
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080753095805815457, guid: c3b1d788347f856448f7005f93028356, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 688.7767
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080753095805815457, guid: c3b1d788347f856448f7005f93028356, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.62209
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080753095805815457, guid: c3b1d788347f856448f7005f93028356, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080753095805815457, guid: c3b1d788347f856448f7005f93028356, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080753095805815457, guid: c3b1d788347f856448f7005f93028356, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080753095805815457, guid: c3b1d788347f856448f7005f93028356, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080753095805815457, guid: c3b1d788347f856448f7005f93028356, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080753095805815457, guid: c3b1d788347f856448f7005f93028356, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080753095805815457, guid: c3b1d788347f856448f7005f93028356, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2716883742272361831, guid: c3b1d788347f856448f7005f93028356, type: 3}
+      propertyPath: m_Name
+      value: SceneControl
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c3b1d788347f856448f7005f93028356, type: 3}
+--- !u!114 &36387273 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1370688413453095027, guid: c3b1d788347f856448f7005f93028356, type: 3}
+  m_PrefabInstance: {fileID: 36387272}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bd2f4c91bccff64ba1788f4780051e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &109956363
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,8 +1180,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 348, y: -188}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -811, y: 326}
+  m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &519717640
 MonoBehaviour:
@@ -1159,12 +1227,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 501935422}
-        m_TargetAssemblyTypeName: Scene_Manager, Assembly-CSharp
-        m_MethodName: LoadTargetScene
-        m_Mode: 1
+      - m_Target: {fileID: 36387273}
+        m_TargetAssemblyTypeName: SceneControl, Assembly-CSharp
+        m_MethodName: OnClick_LoadScene
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2923,8 +2991,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 348, y: -151.7}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -811, y: 395.3}
+  m_SizeDelta: {x: 250, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1990631748
 MonoBehaviour:
@@ -3256,3 +3324,4 @@ SceneRoots:
   - {fileID: 28724241}
   - {fileID: 2057923359}
   - {fileID: 501935423}
+  - {fileID: 36387272}
